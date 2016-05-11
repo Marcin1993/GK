@@ -1,0 +1,49 @@
+﻿Build started 2015-05-11 00:00:00.
+     1>Project "C:\Users\hp\Desktop\Projekty\gk_projekt\HorrorGame\OpenGL\OpenGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib GameEnvironment.cpp
+         GameEnvironment.cpp
+     1>GameEnvironment.cpp(85): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>GameEnvironment.cpp(139): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>GameEnvironment.cpp(223): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>GameEnvironment.cpp(246): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GameEnvironment.cpp(247): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GameEnvironment.cpp(249): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>GameEnvironment.cpp(268): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>GameEnvironment.cpp(275): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>GameEnvironment.cpp(276): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>GameEnvironment.cpp(291): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>GameEnvironment.cpp(338): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GameEnvironment.cpp(339): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GameEnvironment.cpp(355): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GameEnvironment.cpp(356): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>GameEnvironment.cpp(404): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>GameEnvironment.cpp(478): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>GameEnvironment.cpp(495): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GameEnvironment.cpp(638): warning C4305: '=' : truncation from 'double' to 'float'
+     1>GameEnvironment.cpp(643): warning C4305: '=' : truncation from 'double' to 'float'
+     1>GameEnvironment.cpp(648): warning C4305: '=' : truncation from 'double' to 'float'
+     1>GameEnvironment.cpp(653): warning C4305: '=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hp\Desktop\Projekty\gk_projekt\HorrorGame\Debug\HorrorGame.exe" /INCREMENTAL /NOLOGO glew32.lib fmod_vc.lib /ASSEMBLYRESOURCE:Debug\OpenGL.AboutGameMenu.resources /ASSEMBLYRESOURCE:Debug\OpenGL.LoadingGameWindow.resources /ASSEMBLYRESOURCE:Debug\OpenGL.MainGameMenu.resources /ASSEMBLYRESOURCE:Debug\OpenGL.OptionsGameMenu.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hp\Desktop\Projekty\gk_projekt\HorrorGame\Debug\HorrorGame.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"_tWinMain" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\AboutGameMenu.obj
+         Debug\Animation.obj
+         Debug\Camera.obj
+         Debug\Game.obj
+         Debug\GameEnvironment.obj
+         Debug\LoadingGameWindow.obj
+         Debug\main.obj
+         Debug\MainGameMenu.obj
+         Debug\Model.obj
+         Debug\ObjLoader.obj
+         Debug\OptionsGameMenu.obj
+         Debug\Shader.obj
+         Debug\ShaderProgram.obj
+         Debug\Texture.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>GameEnvironment.obj : warning LNK4248: unresolved typeref token (0100001D) for 'FMOD_SYSTEM'; image may not run
+         OpenGL.vcxproj -> C:\Users\hp\Desktop\Projekty\gk_projekt\HorrorGame\Debug\HorrorGame.exe
+     1>Done Building Project "C:\Users\hp\Desktop\Projekty\gk_projekt\HorrorGame\OpenGL\OpenGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00
